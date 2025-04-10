@@ -1,9 +1,0 @@
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

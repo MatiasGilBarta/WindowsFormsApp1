@@ -8,11 +8,6 @@ C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\Proyecto
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\ProyectoGestor\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\ProyectoGestor\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\ProyectoGestor\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
-C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
@@ -22,6 +17,12 @@ C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsF
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\BLL.pdb
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Domain.pdb
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DAL.pdb
+C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Aplicaciones\Visual Studio 2022\Trabajos en Visual Studio 2022\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\App.config

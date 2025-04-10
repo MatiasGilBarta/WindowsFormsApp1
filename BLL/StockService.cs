@@ -4,43 +4,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain;
-using DAL;
+using DAL.Implementations.SQLServer;
+using DAL.Factory;
 using System.Configuration;
+using DAL.Interfaces;
+
 
 namespace BLL
 {
     public class StockService
     {
-        
-        private SQL.ListarStock _stockDAL;
+        private readonly IStockRepository stockRepository;
+
+        //private string connectionString;
 
         public StockService()
         {
-            _stockDAL = new SQL.ListarStock();
+            stockRepository = DAL.Factory.Repository.GetStockInstance(); // ✅ Se obtiene desde la Factory
         }
 
-        // Método para agregar un stock
         public void AgregarStock(Stock stock)
         {
-            _stockDAL.AgregarStock(stock);
+            stockRepository.Add(stock);
         }
 
-        // Método para retornar la lista de stocks
-        public List<Stock> ObtenerStock()
-        {
-            return _stockDAL.RetornarStock();
-        }
-
-        // Método para eliminar un stock
-        public void EliminarStock(int idStock)
-        {
-            _stockDAL.BorrarStock(idStock);
-        }
-
-        // Método para modificar un stock
         public void ModificarStock(Stock stock)
         {
-            _stockDAL.ModificarStock(stock);
+            stockRepository.Update(stock);
+        }
+
+        public void EliminarStock(int idStock)
+        {
+            stockRepository.Delete(idStock);
+        }
+
+        public List<Stock> ObtenerStock()
+        {
+            return stockRepository.GetAll().ToList(); // ✅ Convierte a List<Stock> de forma segura
         }
     }
 }

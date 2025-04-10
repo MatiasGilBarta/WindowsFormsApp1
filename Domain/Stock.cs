@@ -15,7 +15,7 @@ namespace Domain
             public string Descripcion { get; set; }
             public int Cantidad { get; set; }
 
-            public Stock(int pId_stock, int pNro_repuesto, string pNombre_repuesto, string pDescripcion, int pCantidad)
+        public Stock(int pId_stock, int pNro_repuesto, string pNombre_repuesto, string pDescripcion, int pCantidad)
             {
                 Id_stock = pId_stock;
                 Nro_repuesto = pNro_repuesto;

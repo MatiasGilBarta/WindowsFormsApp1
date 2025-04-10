@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|c:\\aplicaciones\\visual studio 2022\\trabajos en visual studio 2022\\repos\\windowsformsapp1\\windowsformsapp1\\dal\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|solutionrelative:dal\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\dal\\implementations\\sqlserver\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|solutionrelative:dal\\implementations\\sqlserver\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\dal\\factory\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|solutionrelative:dal\\factory\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|c:\\aplicaciones\\visual studio 2022\\trabajos en visual studio 2022\\repos\\windowsformsapp1\\windowsformsapp1\\dal\\implementations\\memory\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|solutionrelative:dal\\implementations\\memory\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418930EE-9DC0-4327-8353-759787B32527}|BLL\\BLL.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\bll\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{418930EE-9DC0-4327-8353-759787B32527}|BLL\\BLL.csproj|solutionrelative:bll\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\dal\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\dal\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\windowsformsapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\dal\\helpers\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BEF37-84BB-4C8E-8EBA-467F94FA228C}|DAL\\DAL.csproj|solutionrelative:dal\\helpers\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FE20C1-8651-4356-8ADC-1B7AFA525689}|Domain\\Domain.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\domain\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FE20C1-8651-4356-8ADC-1B7AFA525689}|Domain\\Domain.csproj|solutionrelative:domain\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF6FBD71-DFAF-414E-8FB0-326436FDFD35}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{418930EE-9DC0-4327-8353-759787B32527}|BLL\\BLL.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\bll\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{418930EE-9DC0-4327-8353-759787B32527}|BLL\\BLL.csproj|solutionrelative:bll\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FE20C1-8651-4356-8ADC-1B7AFA525689}|Domain\\Domain.csproj|C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\domain\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FE20C1-8651-4356-8ADC-1B7AFA525689}|Domain\\Domain.csproj|solutionrelative:domain\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,67 +63,120 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SQL.cs",
-              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\SQL.cs",
-              "RelativeDocumentMoniker": "DAL\\SQL.cs",
-              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\SQL.cs",
-              "RelativeToolTip": "DAL\\SQL.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Implementations\\SQLServer\\StockRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Implementations\\SQLServer\\StockRepository.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Implementations\\SQLServer\\StockRepository.cs",
+              "RelativeToolTip": "DAL\\Implementations\\SQLServer\\StockRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:58:27.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Implementations\\Memory\\StockRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Implementations\\Memory\\StockRepository.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Implementations\\Memory\\StockRepository.cs",
+              "RelativeToolTip": "DAL\\Implementations\\Memory\\StockRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:17:58.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\BLL\\StockService.cs",
+              "RelativeDocumentMoniker": "BLL\\StockService.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\BLL\\StockService.cs",
+              "RelativeToolTip": "BLL\\StockService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T22:26:24.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Factory\\Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\Factory\\Repository.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Factory\\Repository.cs",
+              "RelativeToolTip": "DAL\\Factory\\Repository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA6wBsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:40:39.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:13:56.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SQLHelper.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Helpers\\SQLHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\Helpers\\SQLHelper.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Helpers\\SQLHelper.cs",
+              "RelativeToolTip": "DAL\\Helpers\\SQLHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T18:35:24.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T01:05:43.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Domain\\Stock.cs",
               "RelativeDocumentMoniker": "Domain\\Stock.cs",
               "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Domain\\Stock.cs",
               "RelativeToolTip": "Domain\\Stock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T18:35:57.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
               "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T18:40:06.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:13:56.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StockService.cs",
-              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\BLL\\StockService.cs",
-              "RelativeDocumentMoniker": "BLL\\StockService.cs",
-              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\BLL\\StockService.cs",
-              "RelativeToolTip": "BLL\\StockService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:35:41.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
@@ -107,6 +184,32 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T18:13:51.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStockRepository.cs",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Interfaces\\IStockRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IStockRepository.cs",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\DAL\\Interfaces\\IStockRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IStockRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T20:35:34.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\App.config",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\App.config",
+              "ToolTip": "C:\\Aplicaciones\\Visual Studio 2022\\Trabajos en Visual Studio 2022\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\App.config",
+              "RelativeToolTip": "WindowsFormsApp1\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-01T19:35:58.749Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -18,7 +18,9 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        private StockService _stockService;
+        
+
+        private readonly StockService _stockService;
         public Form1()
         {
             InitializeComponent();
@@ -51,10 +53,10 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void Mostrar(DataGridView pDGV, Object pObject)
+        private void Mostrar(DataGridView pDGV, IEnumerable<Stock> pStockList)
         {
             pDGV.DataSource = null;
-            pDGV.DataSource = pObject;
+            pDGV.DataSource = pStockList.ToList();
         }
 
         private void btnDesahbilitarRepuesto_Click(object sender, EventArgs e)
