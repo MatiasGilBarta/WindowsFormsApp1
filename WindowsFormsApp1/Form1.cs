@@ -12,7 +12,7 @@ using Microsoft.VisualBasic;
 using System.Data.SqlClient;
 using System.Configuration;
 using Domain;
-using BLL;
+using BLL.Servicies;
 
 namespace WindowsFormsApp1
 {
@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Mostrar(dataGridView1, _stockService.ObtenerStock());
+            Mostrar(dataGridView1, _stockService.GetAll());
         }
 
         private void btnIngresarRepuesto_Click(object sender, EventArgs e)
@@ -44,8 +44,8 @@ namespace WindowsFormsApp1
                     int.Parse(Interaction.InputBox("Cantidad: "))
                 );
 
-                _stockService.AgregarStock(nuevoStock);
-                Mostrar(dataGridView1, _stockService.ObtenerStock());
+                _stockService.Add(nuevoStock);
+                Mostrar(dataGridView1, _stockService.GetAll());
             }
             catch (Exception ex)
             {
@@ -66,8 +66,8 @@ namespace WindowsFormsApp1
                 if (dataGridView1.SelectedRows.Count > 0)
                 {
                     int idStock = ((Stock)dataGridView1.SelectedRows[0].DataBoundItem).Id_stock;
-                    _stockService.EliminarStock(idStock);
-                    Mostrar(dataGridView1, _stockService.ObtenerStock());
+                    _stockService.Delete(idStock);
+                    Mostrar(dataGridView1, _stockService.GetAll());
                 }
                 else
                 {
@@ -91,8 +91,8 @@ namespace WindowsFormsApp1
                     stock.Descripcion = Interaction.InputBox("Ingrese descripcion del repuesto", "", stock.Descripcion);
                     stock.Cantidad = int.Parse(Interaction.InputBox("Ingrese la cantidad", "", stock.Cantidad.ToString()));
 
-                    _stockService.ModificarStock(stock);
-                    Mostrar(dataGridView1, _stockService.ObtenerStock());
+                    _stockService.Update(stock);
+                    Mostrar(dataGridView1, _stockService.GetAll());
                 }
                 else
                 {

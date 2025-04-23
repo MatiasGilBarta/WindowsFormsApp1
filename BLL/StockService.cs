@@ -14,7 +14,7 @@ namespace BLL
 {
     public class StockService
     {
-        private readonly IStockRepository stockRepository;
+        /*private readonly IStockRepository stockRepository;
 
         //private string connectionString;
 
@@ -41,7 +41,7 @@ namespace BLL
         public List<Stock> ObtenerStock()
         {
             return stockRepository.GetAll().ToList(); // ✅ Convierte a List<Stock> de forma segura
-        }
+        }*/
     }
 }
 

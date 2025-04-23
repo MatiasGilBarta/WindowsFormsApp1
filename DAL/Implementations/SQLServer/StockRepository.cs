@@ -12,7 +12,7 @@ using DAL.Helpers;
 
 namespace DAL.Implementations.SQLServer
 {
-    public class StockRepository : IStockRepository
+    internal class StockRepository : IStockRepository
     {
         
         private readonly string connectionString;
@@ -36,19 +36,6 @@ namespace DAL.Implementations.SQLServer
                 cmd.Parameters.AddWithValue("@Nombre", pStock.Nombre_repuesto);
                 cmd.Parameters.AddWithValue("@Descripcion", pStock.Descripcion);
                 cmd.Parameters.AddWithValue("@Cantidad", pStock.Cantidad);
-
-                conn.Open();
-                cmd.ExecuteNonQuery();
-            }
-        }
-
-        public void Delete(Stock idStock)
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                string query = "DELETE FROM Stock WHERE Id_stock = @IdStock";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@IdStock", idStock);
 
                 conn.Open();
                 cmd.ExecuteNonQuery();

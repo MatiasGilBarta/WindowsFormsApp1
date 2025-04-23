@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{418930EE-9DC0-4327-8353-759787B32527}</ProjectGuid>
+    <ProjectGuid>{A4C9340B-A40F-46CF-B5B7-0EA68304995B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BLL</RootNamespace>
-    <AssemblyName>BLL</AssemblyName>
+    <RootNamespace>Servicies</RootNamespace>
+    <AssemblyName>Servicies</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,7 +32,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,22 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IGenericService.cs" />
-    <Compile Include="Interfaces\IStockService.cs" />
-    <Compile Include="Servicies\StockService.cs" />
-    <Compile Include="StockService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{ad9bef37-84bb-4c8e-8eba-467f94fa228c}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{17fe20c1-8651-4356-8adc-1b7afa525689}</Project>
-      <Name>Domain</Name>
-    </ProjectReference>
+    <Folder Include="BLL\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Facade\" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
