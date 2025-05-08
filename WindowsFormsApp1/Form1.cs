@@ -36,13 +36,22 @@ namespace WindowsFormsApp1
         {
             try
             {
-                Stock nuevoStock = new Stock(
-                    0,  // Id_stock no se envía porque es autonumerado
+                Stock nuevoStock = new Stock
+                {
+                    // Id_stock se deja como default (Guid.Empty) si lo maneja la BD
+                    Nro_repuesto = int.Parse(Interaction.InputBox("Nro de repuesto: ")),
+                    Nombre_repuesto = Interaction.InputBox("Nombre del repuesto: "),
+                    Descripcion = Interaction.InputBox("Descripcion: "),
+                    Cantidad = int.Parse(Interaction.InputBox("Cantidad: "))
+                };
+                    // esto es lo que usabamos antes de Adapter
+                    /*(
+                    Guid.Empty,  // Id_stock no se envía porque es autonumerado
                     int.Parse(Interaction.InputBox("Nro de repuesto: ")),
                     Interaction.InputBox("Nombre del repuesto: "),
                     Interaction.InputBox("Descripcion: "),
                     int.Parse(Interaction.InputBox("Cantidad: "))
-                );
+                );*/
 
                 _stockService.Add(nuevoStock);
                 Mostrar(dataGridView1, _stockService.GetAll());
@@ -65,18 +74,25 @@ namespace WindowsFormsApp1
             {
                 if (dataGridView1.SelectedRows.Count > 0)
                 {
-                    int idStock = ((Stock)dataGridView1.SelectedRows[0].DataBoundItem).Id_stock;
-                    _stockService.Delete(idStock);
+                    Stock seleccionado = (Stock)dataGridView1.SelectedRows[0].DataBoundItem;
+
+                    if (seleccionado.Id_stock == Guid.Empty)
+                    {
+                        MessageBox.Show("Este repuesto no tiene un ID válido para ser eliminado.");
+                        return;
+                    }
+
+                    _stockService.Delete(seleccionado.Id_stock);
                     Mostrar(dataGridView1, _stockService.GetAll());
                 }
                 else
                 {
-                    MessageBox.Show("No hay registros para borrar.");
+                    MessageBox.Show("No hay registros seleccionados.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Error al eliminar: " + ex.Message);
             }
         }
 

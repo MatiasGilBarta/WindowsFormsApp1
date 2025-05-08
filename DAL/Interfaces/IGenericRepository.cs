@@ -12,11 +12,11 @@ namespace DAL.Interfaces
 
         void Update(T entity);
 
-        void Delete(int id);
+        void Delete(Guid id);
 
         IEnumerable<T> GetAll();
 
-        T GetbyId(int id);
+        T GetbyId(Guid id);
 
     }
 }

@@ -23,7 +23,7 @@ namespace DAL.Implementations.Memory
             throw new NotImplementedException();
         }
 
-        public void Delete(int idStock)
+        public void Delete(Guid idStock)
         {
             throw new NotImplementedException();
         }
@@ -33,7 +33,7 @@ namespace DAL.Implementations.Memory
             throw new NotImplementedException();
         }
 
-        public Stock GetbyId(int idStock)
+        public Stock GetbyId(Guid idStock)
         {
             throw new NotImplementedException();
         }

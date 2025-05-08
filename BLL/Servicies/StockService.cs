@@ -21,7 +21,8 @@ namespace BLL.Servicies
 
         public StockService()
         {
-            stockRepository = DAL.Factory.Repository.GetStockInstance(); // ✅ Se obtiene desde la Factory
+            stockRepository = Repository.Current.GetStockInstance(); //instacia desde la factory pero mezclado con singleton
+            //stockRepository = DAL.Factory.Repository.GetStockInstance(); // ✅ Se obtiene desde la Factory
         }
         //--------------------------------------
         public void Add(Stock stock)
@@ -34,7 +35,7 @@ namespace BLL.Servicies
             stockRepository.Update(stock);
         }
 
-        public void Delete(int idStock)
+        public void Delete(Guid idStock)
         {
             stockRepository.Delete(idStock);
         }
@@ -44,7 +45,7 @@ namespace BLL.Servicies
             return stockRepository.GetAll();
         } 
 
-        public Stock GetbyId(int id)
+        public Stock GetbyId(Guid id)
         {
             throw new NotImplementedException();
         }

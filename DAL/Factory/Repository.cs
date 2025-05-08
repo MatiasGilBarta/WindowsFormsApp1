@@ -7,36 +7,48 @@ using System.Threading.Tasks;
 using DAL.Implementations.SQLServer;
 using DAL.Interfaces;
 
-namespace DAL.Factory
+namespace DAL.Factory //el resto de la clase es factory
 {
-    public static class Repository
+    public sealed class Repository //singleton me queda hacerlo trhead safe
     {
+        private static readonly Repository _instance = new Repository();
 
-        static string backendType = ConfigurationManager.AppSettings["ProyectoGestor"];
-
-        static string connectionString;
-
-        public static IStockRepository GetStockInstance()
+        public static Repository Current
         {
+            get
+            {
+                return _instance;
+            }
+        }
+        //singleton, es para para mostrar la unica instancia
 
+        //public static Repository Instance => _instance; 
+        //singleton, tambien muestra la unica instacia pero la diferencia es solo de sintaxis
+
+
+        //capaz ahora que tengo el helper vamos a tener que cambiar esto
+        private readonly string backendType = ConfigurationManager.AppSettings["ProyectoGestor"];
+        //private readonly string connectionString = ConfigurationManager.ConnectionStrings["ProyectoGestor"].ConnectionString;
+        //hasta aca
+        private Repository() //singleton
+        {
+            // Inicialización
+        }
+
+        public IStockRepository GetStockInstance()
+        {
             if (backendType == "memory")
             {
-                //connectionString = ConfigurationManager.ConnectionStrings.["sqlserver"].connectionstring
-                // este tambien es de ejemplo, pq en memory no hace falta connection string
-                return new DAL.Implementations.Memory.StockRepository(/*connectionString*/);
+                return new DAL.Implementations.Memory.StockRepository();
             }
             else if (backendType == "sqlserver")
             {
-                var connectionString = ConfigurationManager.ConnectionStrings["ProyectoGestor"].ConnectionString;
-                return new DAL.Implementations.SQLServer.StockRepository(connectionString);
-            }
-            /*else if (backendType == "mysql")
-            {
-                connectionString = ConfigurationManager.ConnectionStrings.["mysql"].connectionstring
-             este es a modo de ejemplo, meto el connection string correspondiente de la tecnologia
                 return new DAL.Implementations.SQLServer.StockRepository();
-            }*/
-            throw new Exception("BackendType no soportado en Repository");//este hay que comentarlo despues para resolver problemas que tapa
+            }
+
+            throw new Exception("Backend no soportado.");
         }
+
+        // Podés agregar más GetXRepository() acá si querés extenderlo
     }
 }
